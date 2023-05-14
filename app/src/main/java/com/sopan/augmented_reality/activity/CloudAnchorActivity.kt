@@ -42,7 +42,6 @@ class CloudAnchorActivity : BaseArActivity() {
     }
 
     private fun renderCloudView() {
-       // val view = layoutInflater.inflate(R.layout.cloud_anchor, binding.container)
         val view = layoutInflater.inflate(R.layout.cloud_anchor, binding.container)
 
         val btnClear = view.findViewById<ExtendedFloatingActionButton>(R.id.btnClear)
@@ -147,7 +146,6 @@ class CloudAnchorActivity : BaseArActivity() {
     }
 
     companion object {
-        fun start(context: Context) =
-            context.startActivity(Intent(context, CloudAnchorActivity::class.java))
+        fun start(context: Context) = context.startActivity(Intent(context, CloudAnchorActivity::class.java))
     }
 }

@@ -34,7 +34,8 @@ class AugmentedImageFragment : BaseArFragment() {
 
     override fun getSessionConfiguration(session: Session?): Config =
         Config(session).setAugmentedImageDatabase(AugmentedImageDatabase(session).apply {
-            addImage("fox", "images/fox.jpg".assetToBitmap(), 0.1f)
+         //   addImage("fox", "images/fox.jpg".assetToBitmap(), 0.1f)
+            addImage("dinosour", "images/dinosour.jpg".assetToBitmap(), 0.1f)
         })
 
     override fun getSessionFeatures(): MutableSet<Session.Feature> = mutableSetOf()

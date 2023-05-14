@@ -15,7 +15,6 @@ import com.sopan.augmented_reality.helpers.createNode
 import com.sopan.augmented_reality.helpers.loadRenderable
 import com.sopan.augmented_reality.helpers.screenShot
 
-
 class NoArActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityNoArBinding
@@ -59,8 +58,7 @@ class NoArActivity : AppCompatActivity() {
         model?.let {
             ts.createNode(binding.sceneView.scene, model).apply {
                 localPosition = Vector3(0f, 0f, -2f)
-                localRotation =
-                    Quaternion.lookRotation(Vector3(0.5f, 0f, -0.5f), Vector3(0.5f, 0f, -0.5f))
+                localRotation = Quaternion.lookRotation(Vector3(0.5f, 0f, -0.5f), Vector3(0.5f, 0f, -0.5f))
                 localScale = Vector3(0.8f, 0.8f, 0.8f)
                 name = "Fox"
             }
@@ -76,7 +74,6 @@ class NoArActivity : AppCompatActivity() {
     }
 
     companion object {
-        fun start(context: Context) =
-            context.startActivity(Intent(context, NoArActivity::class.java))
+        fun start(context: Context) = context.startActivity(Intent(context, NoArActivity::class.java))
     }
 }

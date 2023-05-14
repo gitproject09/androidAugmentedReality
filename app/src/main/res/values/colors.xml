@@ -15,4 +15,5 @@
     <color name="secondaryTextColor">#ffffff</color>
 
     <color name="messageColor">#AA000000</color>
+    <color name="darkColor">#121212</color>
 </resources>

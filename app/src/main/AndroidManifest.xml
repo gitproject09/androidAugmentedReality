@@ -23,10 +23,17 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--<activity android:name=".drakosha.GameArActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
 
         <activity
             android:name=".activity.ObjectPlacementActivity"
@@ -45,6 +52,36 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.CloudAnchorActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vision.VisionActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drakosha.ObjectArActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drakosha.ShapeArActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drakosha.PagerArActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drakosha.CustomArActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drakosha.GameArActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBar" />

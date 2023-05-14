@@ -55,12 +55,7 @@ class MainActivity : AppCompatActivity() {
         text.setSpan(
             object : ClickableSpan() {
                 override fun onClick(widget: View) {
-                    startActivity(
-                        Intent(
-                            Intent.ACTION_VIEW,
-                            Uri.parse("https://poly.google.com")
-                        )
-                    )
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://poly.google.com")))
                 }
             },
             text.indexOf("Poly by Google", ignoreCase = true),
@@ -70,17 +65,10 @@ class MainActivity : AppCompatActivity() {
         text.setSpan(
             object : ClickableSpan() {
                 override fun onClick(widget: View) {
-                    startActivity(
-                        Intent(
-                            Intent.ACTION_VIEW,
-                            Uri.parse("https://github.com/anacoimbrag/android-augmented-reality")
-                        )
-                    )
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gitproject09/androidAugmentedReality")))
                 }
             },
-            text.indexOf("Github", ignoreCase = true),
-            text.indexOf("Github", ignoreCase = true) + "Github".length,
-            SpannableString.SPAN_INCLUSIVE_EXCLUSIVE
+            text.indexOf("Github", ignoreCase = true), text.indexOf("Github", ignoreCase = true) + "Github".length, SpannableString.SPAN_INCLUSIVE_EXCLUSIVE
         )
         binding.creditsText.movementMethod = LinkMovementMethod.getInstance();
         binding.creditsText.text = text

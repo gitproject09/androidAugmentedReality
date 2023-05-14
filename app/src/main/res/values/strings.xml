@@ -3,6 +3,14 @@
     <string name="title_object_placement">Object placement</string>
     <string name="title_augmented_image">Augmented Image</string>
     <string name="title_cloud_anchor">Cloud Anchor</string>
+
+    <string name="title_vision">Google Vision</string>
+    <string name="title_object_put">Put Object</string>
+    <string name="title_shape">Geo Shape</string>
+    <string name="title_pager">Pager Object</string>
+    <string name="title_custom">Custom AR</string>
+    <string name="title_game_ar">Game Shoot AR</string>
+
     <string name="error_loading_model">Could not load model object</string>
     <string name="error_opengl_min_version">This app requires OpenGL ES 3.0 or later</string>
     <string name="error_install_arcore">Please install Play Services for AR</string>
@@ -11,7 +19,7 @@
     <string name="error_unsupported_device">This device does not support AR</string>
     <string name="error_generic_arcore">Could not initialize session</string>
     <string name="image_detected_placeholder">Detected image: %s</string>
-    <string name="title_no_ar">Render without AR</string>
+    <string name="title_no_ar">Without AR</string>
     <string name="title_resolve_anchor">Resolve anchor</string>
     <string name="text_resolve_anchor">Type the cloud anchor code</string>
     <string name="close">Close</string>
@@ -32,4 +40,8 @@
     <string name="credits_text">This app is for education purpose only.\nThanks FlatIcon for all awesome icons ❤︎\nThanks for Poly by Google for the 3D models ❤︎\nYou can check this project code on Github</string>
     <string name="privacy_policy">Privacy policy</string>
     <string name="google_map_key" translatable="false">AIzaSyDjLsgMwpw2U2g11FfRWSdUYqOqJibFjqs</string>
+
+    <string name="hint">Enter math expression</string>
+    <string name="name">Solve It</string>
+
 </resources>
